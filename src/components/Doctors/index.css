@@ -1,0 +1,144 @@
+.doctor-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #c6e2ff;
+  background-size: cover;
+  min-height: 90vh;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+}
+@media screen and (min-width: 768px) {
+  .doctor-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    width: 92%;
+  }
+}
+
+.search-input-doctor-list-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .search-input-doctor-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 40px;
+    margin-top: 28px;
+  }
+}
+.search-input-container-desktop {
+  display: flex;
+  align-self: flex-start;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #7e858e;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.search-input-desktop {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  flex-grow: 1;
+  padding-left: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 16px;
+  width: 450px;
+}
+.search-button-container-desktop {
+  background-color: #475569;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin: 0px;
+}
+
+.search-icon-desktop {
+  color: #ffffff;
+  width: 15px;
+  height: 15px;
+}
+@media screen and (max-width: 768px) {
+  .search-input-container-desktop {
+    display: none;
+  }
+}
+
+/* foodmuch */
+.healthy-food-section {
+  background-color: #7f7f7f;
+  border-radius: 15px;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.details {
+  text-align: center;
+  padding: 10px;
+}
+.custom-button {
+  color: white;
+  background-color: #d0b200;
+  width: 130px;
+  height: 45px;
+  border-width: 0;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.healthy-food-section-img {
+  width: 140px;
+  margin-right: 15px;
+  height: 180px;
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.healthy-food-section-heading {
+  color: #183b56;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.healthy-food-section-description {
+  color: #5a7184;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
